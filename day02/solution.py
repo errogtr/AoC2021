@@ -13,8 +13,8 @@ for line in data:
         case "up":
             aim -= int(steps)
 
-# ---- PART 1 ----
+# ==== PART 1 ====
 print(horizontal * aim)
 
-# ---- PART 2 ----
+# ==== PART 2 ====
 print(horizontal * depth)

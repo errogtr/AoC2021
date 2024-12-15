@@ -23,8 +23,8 @@ def rating(data, op, i=0):
 with open("data") as f:
     data = f.read().splitlines()
 
-# ---- PART 1 ----
+# ==== PART 1 ====
 print(counts(data, ge) * counts(data, lt))
 
-# ---- PART 2 ----
+# ==== PART 2 ====
 print(rating(data, ge) * rating(data, lt))

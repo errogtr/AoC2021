@@ -5,8 +5,8 @@ def sweep(idx):
 with open("data") as f:
     data = [int(line) for line in f.read().splitlines()]
 
-# ---- PART 1 ----
+# ==== PART 1 ====
 print(sweep(1))
 
-# ---- PART 2 ----
+# ==== PART 2 ====
 print(sweep(3))
